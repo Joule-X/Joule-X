@@ -1,0 +1,44 @@
+/* navbar */
+ul#my-nav {
+    list-style: none;
+}
+ul#my-nav li a{
+    text-decoration: none;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 14px;
+}
+ul#my-nav li a:hover {
+    color: blue;
+}
+
+/* about section */
+img#img-profile {
+    width: 140px;
+    height: 150px;
+}
+div.colom-about-2 {
+    position: relative;
+    /* background-color: red; */
+}
+div.colom-about-2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 90%;
+    background-color: #ddd;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+table#table-about tr {
+    margin-bottom: 10px;
+}
+table#table-about tr td:nth-child(1) {
+    width: 25%;
+}
+table#table-about tr td:nth-child(2) {
+    width: 75%;
+    color: #555;
+}

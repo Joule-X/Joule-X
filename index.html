@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliansyah Daud, Kampus Merdeka</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="bs-4/css/bootstrap.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow pt-3 mb-3">
+        <div class="container w-100 d-flex flex-row-reverse align-items-end pt-0" >
+            <ul class="d-flex m-0 mb-1 p-0" id="my-nav">
+                <li class="mx-2 p-0">
+                    <a href="" class="m-0 p-0">HOME</a>
+                </li>
+                <li class="mx-2 p-0">
+                    <a href="" class="m-0 p-0">PRODUCT</a>
+                </li>
+                <li class="mx-2 p-0">
+                    <a href="" class="m-0 p-0">GALLERY</a>
+                </li>
+                <li class="mx-2 p-0">
+                    <a href="" class="m-0 p-0">BLOG</a>
+                </li>
+                <li class="mx-2 p-0">
+                    <a href="" class="m-0 p-0">MY INVENTORY</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- about section -->
+    <div class="container mt-5 bg-white shadow-sm rounded py-3 px-3" id="about">
+        <div class="row">
+            <div class="col-md-5 d-flex">
+                <img src="jul.png"  class="rounded-circle" alt="" id="img-profile">
+                <div class="about-main-info ml-4 pt-1">
+                    <h2 id="about-nama" class="font-weight-bold mb-0 ">
+                        Juliansyah Daud
+                    </h2>
+                    <small id="about-role" class="text-muted">
+                        Front End Developer
+                    </small>
+                    <div class="button-about">
+                        <button class="btn btn-primary mt-4 mr-2" id="about-btn-kontak">
+                            Edit
+                        </button>
+                        <button class="btn btn-outline-success  mt-4">
+                            Resume
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7 colom-about-2 pt-1" >
+                <table border="0" class="w-100" id="table-about">
+                    <tr>
+                        <td>
+                            <b>Availability</b>
+                        </td>
+                        <td id="about-availability">
+                            Full Time
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Usia</b>
+                        </td>
+                        <td id="about-age">
+                            20
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Lokasi</b>
+                        </td>
+                        <td id="about-lokasi">
+                            Manado
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Pengalaman</b>
+                        </td>
+                        <td id="about-experience">
+                            2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>email</b>
+                        </td>
+                        <td id="about-email">
+                            Juliansyahdaud@gmail.com
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- form section -->
+    <div class="container mt-5 bg-white shadow-sm rounded p-0 mb-5 d-none" id="form-edit">
+        <form action="" method="get">
+            <label for="nama" class="mb-0">Nama</label>
+            <input type="text" class="w-100 mb-2" id="nama" required>
+
+            <label for="role" class="mb-0">Role</label>
+            <input type="text" class="w-100 mb-2" id="role" required>
+
+            <label for="availability" class="mb-0">Availability</label>
+            <input type="text" class="w-100 mb-2" id="availability" required>
+
+            <label for="age" class="mb-0">Age</label>
+            <input type="number" class="w-100 mb-2" id="age" required>
+
+            <label for="lokasi" class="mb-0">Lokasi</label>
+            <input type="text" class="w-100 mb-2" id="lokasi" required>
+
+            <label for="experience" class="mb-0">Years Experience</label>
+            <input type="number" class="w-100 mb-2" id="experience" required>
+
+            <label for="email" class="mb-0">Email</label>
+            <input type="email" class="w-100 mb-2" id="email" required>
+
+            <button type="submit" class="btn btn-success w-100" id="btn-submit">
+                SUBMIT
+            </button>
+
+        </form> 
+    </div>
+    
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- boostrap js -->
+    <script src="bs-4/js/bootstrap.bundle.min.js"></script>
+    <!-- my script -->
+    <script src="app.js"></script>
+</body>
+</html>
